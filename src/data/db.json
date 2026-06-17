@@ -1,0 +1,83 @@
+{
+  "rsvps": [
+    {
+      "id": "rsvp-1781601319073-2kyd",
+      "name": "Anjali Singh",
+      "email": "anjalisinghddd007@gmail.com",
+      "phone": "+918756545869",
+      "guests": 1,
+      "events": [
+        "haldi",
+        "wedding"
+      ],
+      "foodPreference": "Non-Vegetarian",
+      "timestamp": "2026-06-16T09:15:19.073Z"
+    }
+  ],
+  "wishes": [
+    {
+      "id": "default-1",
+      "name": "Anjali (Sister)",
+      "text": "Wishing you both a lifetime of happiness, laughter, and endless adventure together! Can't wait for the ceremonies!",
+      "color": "#D4A5A5",
+      "leafPosition": {
+        "x": 200,
+        "y": 150
+      },
+      "timestamp": "2026-06-10T10:28:00.000Z"
+    },
+    {
+      "id": "default-2",
+      "name": "Vikram Singh",
+      "text": "Hearty congratulations to Anoop & Sanya! Looking forward to celebrating this beautiful union in Prayagraj.",
+      "color": "#C5A880",
+      "leafPosition": {
+        "x": 350,
+        "y": 180
+      },
+      "timestamp": "2026-06-10T10:28:10.000Z"
+    },
+    {
+      "id": "wish-1781599882726",
+      "name": "Test Guest",
+      "text": "Wishing you a lifetime of happiness!",
+      "color": "#C8D1C3",
+      "timestamp": "2026-06-16T08:51:22.726Z"
+    },
+    {
+      "id": "wish-1781600308487",
+      "name": "anjaliddacsd",
+      "text": "ddede",
+      "color": "#C8D1C3",
+      "timestamp": "2026-06-16T08:58:28.487Z"
+    },
+    {
+      "id": "wish-1781601003252",
+      "name": "test test",
+      "text": "test",
+      "color": "#FAF8F3",
+      "timestamp": "2026-06-16T09:10:03.252Z"
+    },
+    {
+      "id": "wish-1781674862246",
+      "name": "Local Verification",
+      "text": "Testing local write.",
+      "color": "#C5A880",
+      "timestamp": "2026-06-17T05:41:02.246Z"
+    }
+  ],
+  "lanterns": [
+    {
+      "id": "l-1",
+      "name": "Rahul",
+      "wish": "May your love shine brighter than a million lanterns in the night sky.",
+      "timestamp": "2026-06-10T10:28:20.000Z"
+    },
+    {
+      "id": "l-1781601291533",
+      "name": "anjaoi",
+      "wish": "shhhdhd",
+      "timestamp": "2026-06-16T09:14:51.533Z"
+    }
+  ]
+}

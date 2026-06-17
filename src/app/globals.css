@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+:root {
+  --color-ivory: #FAF8F3;
+  --color-gold: #D6C3A5;
+  --color-gold-text: #C5A880;
+  --color-gold-dark: #A27B5C;
+  --color-rose: #EAD6D0;
+  --color-sage: #C8D1C3;
+  --color-beige: #F3EEE7;
+
+  --background: #FAF8F3;
+  --foreground: #27272a;
+}
+
+/* Custom theme mapping for Tailwind classes */
+@theme inline {
+  --color-ivory: var(--color-ivory);
+  --color-gold: var(--color-gold);
+  --color-gold-text: var(--color-gold-text);
+  --color-gold-dark: var(--color-gold-dark);
+  --color-rose: var(--color-rose);
+  --color-sage: var(--color-sage);
+  --color-beige: var(--color-beige);
+
+  --font-serif: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-montserrat), sans-serif;
+  --font-cinzel: var(--font-cinzel), serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-montserrat), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Utility to hide scrollbars */
+@utility scrollbar-none {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+  }
+}
+
+/* Custom Cursor styling override */
+button, a, input, select, textarea, [role="button"] {
+  cursor: none !important;
+}
+
+/* Premium Typography styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-cormorant), Georgia, serif;
+}
+
+/* Range input styling for volume slider */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: rgba(197, 168, 128, 0.2);
+  border-radius: 9999px;
+  height: 4px;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #C5A880;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.3);
+}
